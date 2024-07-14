@@ -1,0 +1,577 @@
+/* ================Common CSS =================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* ================Header Section=================*/
+#hero {
+    color: #fff;
+    text-align: center;
+    padding: 40px 0 60px;
+}
+
+#hero .hero-wrapper {
+    height: 400px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../images/Banner-Image.png);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+#hero p {
+    font-family: "Merriweather", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+#hero h1 {
+    font-family: "Merriweather", serif;
+    font-size: 45px;
+    line-height: 3.5rem;
+    letter-spacing: 2px;
+}
+
+/* ================Discount Section=================*/
+#discount {
+    text-align: center;
+    margin: 20px 0 70px;
+}
+
+#discount h2 {
+    color: #FF0000;
+    font-size: 52px;
+    margin-bottom: 30px;
+}
+
+#discount p {
+    color: #FF0000;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#discount h3 {
+    color: #070211;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#discount img {
+    max-width: 450px;
+    margin: auto;
+}
+
+/* ================Party Section=================*/
+#party {
+    background: linear-gradient(to right, #000000ea, #00000034), url('../images/Vectorrr.png') no-repeat center / cover;
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 70px;
+    padding: 80px 0;
+}
+
+#party .party-wrapper {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    align-items: center;
+    padding-left: 80px;
+}
+
+#party .party-wrapper img {
+    width: 220px;
+    transform: translate(-30px, 0px);
+}
+
+#party h2 {
+    font-family: "Merriweather", serif;
+    font-size: 45px;
+    line-height: 3.5rem;
+    letter-spacing: 3px;
+}
+
+#party p {
+    width: 600px;
+    margin: 20px 0 20px;
+    opacity: 0.6;
+    font-size: 14px;
+    line-height: 1.3rem;
+    font-weight: 400;
+}
+
+#party a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    font-size: 14px;
+    font-size: 600;
+}
+
+/* ================JoinNow Section=================*/
+#joinNow {
+    background: linear-gradient(to bottom, #9e19192d, #8f101000);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    text-align: center;
+}
+
+#joinNow p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 2.2rem;
+}
+
+#joinNow p span {
+    color: #FF0000
+}
+
+#joinNow button {
+    background: #FF0000;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 13px 22px;
+    display: block;
+    margin: auto;
+    font-size: 14px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+/* ================Offer Section=================*/
+#offer {
+    padding: 100px 0 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+
+#offer img.sbox-img {
+    width: 230px;
+    border-radius: 50%;
+    outline: 8px solid #FF0000;
+    outline-offset: 17px;
+
+}
+
+#offer .offer-box {
+    width: 33.33%;
+}
+
+#offer .offer-box:nth-child(2) {
+    margin: auto;
+    text-align: center;
+}
+
+#offer h2,
+#portfolio h2,
+#subscribe h2 {
+    font-family: "Merriweather", serif;
+    font-size: 30px;
+    margin: 10px 0;
+    font-weight: 900;
+}
+
+#offer span,
+#portfolio span {
+    color: #FF0000;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#offer p,
+#portfolio p,
+#subscribe p {
+    color: #070211bd;
+    font-size: 15px;
+    line-height: 1.3rem;
+}
+
+#offer .left-box h2 {
+    color: #070211;
+    font-family: inherit;
+    font-weight: 700;
+    color: #FF0000;
+}
+
+#offer .left-box img {
+    display: block;
+    margin-top: 20px;
+    width: 100px;
+}
+
+/* ================Sale Section=================*/
+#sell {
+    background: #fafafa;
+    padding-top: 50px;
+}
+
+#sell .sell-upper {
+    text-align: center;
+}
+
+#sell h2 {
+    font-family: "Merriweather", serif;
+    font-size: 42px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+#sell h2 span {
+    color: #FF0000
+}
+
+#sell p:first-child {
+    color: #111;
+    font-weight: 600;
+}
+
+#sell p:last-child {
+    color: #07021194;
+    width: 700px;
+    margin: auto;
+    font-size: 15px;
+    line-height: 1.3rem;
+    font-weight: 500;
+}
+
+#sell .sell-middle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sell .sell-middle .left-img {
+    transform: translateY(132px);
+}
+
+#sell .sell-middle .left-img img {
+    width: 450px;
+}
+
+#sell .sell-middle .right-img img {
+    width: 220px;
+    padding-top: 80px;
+}
+
+#sell .sell-end img {
+    width: 100%;
+}
+
+#sell .sell-toggle {
+    transform: translateY(-72px);
+}
+
+/* ================Portfolio Section=================*/
+#portfolio {
+    padding-top: 50px;
+}
+
+#portfolio p {
+    padding-bottom: 40px;
+    width: 650px;
+}
+
+#portfolio .portfolio-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 25px;
+    grid-row-gap: 20px;
+}
+
+#portfolio .portfolio-wrapper .single-box img {
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+}
+
+/* ================subscribe Section=================*/
+#subscribe {
+    margin: 50px 0;
+    background: #9e191913;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 70px 0;
+}
+
+#subscribe img {
+    width: 90px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#subscribe p {
+    width: 700px;
+    color: #070211bb;
+    line-height: 1.2rem;
+    margin-bottom: 30px;
+}
+
+#subscribe input {
+    border: none;
+    outline: none;
+    background: #fff;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-size: 14px;
+}
+
+#subscribe input[type="email"] {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 300px;
+}
+
+#subscribe input[type="submit"] {
+    color: #fff;
+    background: #FF0000;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    transform: translateX(-10px);
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+/* ================Footer Section=================*/
+footer {
+    padding: 80px 0;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .footer-title {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+footer .footer-title p {
+    line-height: 1.6rem;
+    font-size: 14px;
+}
+
+.footer-desc {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-desc a {
+    text-decoration: none;
+    color: #ddd;
+    font-size: 14px;
+}
+
+footer .footer-icons {
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
+    opacity: 0.3;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    margin-bottom: 40px;
+}
+
+.footer-icons a {
+    padding: 0 7px;
+}
+
+.footer-icons a img {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+/* ================Responsive CSS =================*/
+@media screen and (max-width:1140px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    #portfolio .portfolio-wrapper .single-box img {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    #party .party-wrapper img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #party .party-wrapper {
+        padding-left: 20px;
+        grid-template-columns: auto;
+    }
+
+    #party h2 {
+        font-size: 30px;
+        line-height: 2.5rem;
+    }
+
+    #party p {
+        width: auto;
+    }
+
+    #offer {
+        gap: 40;
+        flex-direction: column;
+    }
+
+    #offer .offer-box {
+        width: 100%
+    }
+
+    #sell .sell-middle .left-img img {
+        width: 300px;
+    }
+
+    #sell .sell-middle .right-img img {
+        width: 150px;
+    }
+
+    #sell p:last-child,
+    #subscribe p {
+        width: 100%;
+    }
+
+    #portfolio .portfolio-wrapper {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width:576px) {
+    #hero h1 {
+        font-size: 30px;
+        line-height: 2.5rem;
+    }
+
+    #hero p {
+        font-size: 18px;
+    }
+
+    #discount h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    #discount img {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    #portfolio .portfolio-wrapper {
+        grid-template-columns: auto;
+    }
+
+    #sell h2 {
+        font-size: 30px;
+    }
+
+    #sell .sell-middle .left-img img {
+        width: 250px;
+    }
+
+    #sell .sell-middle .right-img img {
+        width: 150px;
+    }
+
+    #sell .sell-middle .left-img {
+        transform: translateY(70px);
+    }
+
+    .right-img {
+        transform: translateX(32px) !important;
+    }
+
+    #subscribe input {
+        padding: 10px 15px;
+    }
+
+    #subscribe input[type="email"] {
+        width: 150px;
+    }
+
+    #subscribe h2 {
+        font-size: 25px !important;
+    }
+
+    #subscribe input[type="submit"] {
+        transform: translateX();
+        padding: 10px 15px;
+
+    }
+
+    .footer-desc a {
+        display: block;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .footer-desc {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .footer-title {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 30px;
+    }
+
+    #offer {
+        text-align: center;
+    }
+
+    #offer .left-box img {
+        display: block;
+        text-align: center;
+        margin: auto;
+        width: 100px;
+    }
+
+    #sell .sell-middle .left-img {
+        transform: translate(5px, 70px);
+    }
+
+    #sell .sell-middle .right-img img {
+        display: none;
+    }
+
+}
